@@ -1,0 +1,11 @@
+{
+    "name": "numberizer",
+    "version": "1.0.1",
+    "description": "This package is a random number generator optimized to be fast and functional.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ignacio Gonzalez",
+    "license": "ISC"
+}
