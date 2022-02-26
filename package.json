@@ -7,5 +7,22 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Ignacio Gonzalez",
-    "license": "ISC"
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/siegmund0/numberizer.git"
+    },
+    "keywords": [
+        "number",
+        "random number",
+        "random",
+        "generator",
+        "generate",
+        "random number generator",
+        "numberizer"
+    ],
+    "bugs": {
+        "url": "https://github.com/siegmund0/numberizer/issues"
+    },
+    "homepage": "https://github.com/siegmund0/numberizer/blob/master/README.md"
 }
