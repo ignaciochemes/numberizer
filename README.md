@@ -1,7 +1,10 @@
 # Numberizer ![Build Status](https://travis-ci.org/mrhooray/rpg.png?branch=master)
 
+Generate controlled random numbers with this package quickly and safely. Allowing you to assign the length of numbers you want to generate.
+
 ## Installation
 > npm install numberizer
+
 
 ## Usage
 
