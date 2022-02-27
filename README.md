@@ -91,21 +91,27 @@ let numberToBinarySplit = NumberToBinary(123, true);
 ```js
 const numberizer = require('numberizer');
 
-let numberToBinary = await numberizer.NumberToBinary(123);
-// result: 00000000000000000000000001111011
+async function numberToBinary() {
+    let numberToBinary = await numberizer.NumberToBinary(123);
+    // result: 00000000000000000000000001111011
+    
+    let numberToBinarySplit = await numberizer.NumberToBinary(123, true);
+    // result: 00000000 00000000 00000000 01111011
+}
 
-let numberToBinarySplit = await numberizer.NumberToBinary(123, true);
-// result: 00000000 00000000 00000000 01111011
 ```
 
 ```js
 const { NumberToBinary } = require('numberizer');
 
-let numberToBinary = await NumberToBinary(123);
-// result: 00000000000000000000000001111011
+const numberToBinary = async () => {
+    let numberToBinary = await NumberToBinary(123);
+    // result: 00000000000000000000000001111011
+    
+    let numberToBinarySplit = await NumberToBinary(123, true);
+    // result: 00000000 00000000 00000000 01111011
+}
 
-let numberToBinarySplit = await NumberToBinary(123, true);
-// result: 00000000 00000000 00000000 01111011
 ```
 
 ### Passworizer Project By Emiliano Kosh
