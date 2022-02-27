@@ -1,6 +1,6 @@
 {
     "name": "numberizer",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "This package is a random number generator optimized to be fast and functional.",
     "main": "index.js",
     "scripts": {
